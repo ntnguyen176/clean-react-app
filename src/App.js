@@ -1,17 +1,16 @@
 import './App.css';
-import Frame from "./components/Frame.js";
+import Robot from './assets/image.jpg'
 
-import image from "./assets/image.jpg";
-
-function App() {
+function App() { 
   return (
-    <div>
-      <Frame/>
-      <Frame/>
-      <Frame/>
+    
+    <div className='text' >
+      <img src= {Robot} className='Robot' />
+      <h1> Hello</h1>
+      <p> This is an image of a robot from our very school skool WHS </p>
     </div>
 
-  );
+  )
 }
  
 export default App;

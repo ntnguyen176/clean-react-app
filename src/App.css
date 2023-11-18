@@ -1,45 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Lato', Courier, monospace;
+.Robot {
+    border-radius: 5rem;
+    width: 30rem;
+    height: 20rem;
 }
 
-body {
-    height: 100vh;
-    margin: 0;
+.text{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 7vw;
-}
-
-.container img {
-    border-radius: 5vh;
-    max-width: 50vw;
-    max-height: 50vh;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    gap: 5vh;
-    max-width: 35vw;
-}
-
-.text h1 {
-    font-size: 6vh;
-}
-
-.text p {
-    font-size: 2.6vh;
-    line-height: 6vh;
+    justify-content: right;
 }
